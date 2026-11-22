@@ -11,7 +11,7 @@ An AI-native link-in-bio storefront generator designed specifically for Indian m
 
 ## 🌐 Live Demo & Deployment
 
-- **Production URL:** Deployable directly to Vercel Hobby tier with zero configuration.
+- **Production URL (Live):** [https://ai-storefront-generator-nta6.vercel.app/](https://ai-storefront-generator-nta6.vercel.app/)
 - **Local Dev:** `http://localhost:3000`
 
 ---
