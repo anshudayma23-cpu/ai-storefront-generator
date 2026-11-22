@@ -34,19 +34,8 @@ git push -u origin main
 1. Go to [Vercel Dashboard](https://vercel.com/dashboard) -> **Add New...** -> **Project**.
 2. Select your imported GitHub repository.
 3. Keep the **Framework Preset** as `Next.js` and **Root Directory** as `./`.
-
-### 3. Configure Environment Variables in Vercel
-Under **Project Settings** -> **Environment Variables**, add the following 5 variables:
-
-| Variable Name | Value Description | Example |
-|---|---|---|
-| `GEMINI_API_KEY` | Google AI Studio free tier key | `AIzaSy...` |
-| `GEMINI_MODEL` | Flash-class Gemini model | `gemini-3.5-flash-lite` |
-| `SUPABASE_URL` | Supabase project URL | `https://xyz.supabase.co` |
-| `SUPABASE_SERVICE_ROLE_KEY` | Supabase service_role secret key | `eyJhbGciOi...` |
-| `NEXT_PUBLIC_APP_URL` | Your live Vercel production URL | `https://<your-project>.vercel.app` |
-
-4. Click **Deploy**. Vercel will build and deploy the application in under 60 seconds!
+4. Add your environment variables in Vercel project settings (refer to `.env.example`).
+5. Click **Deploy**. Vercel will build and deploy the application in under 60 seconds!
 
 ---
 
